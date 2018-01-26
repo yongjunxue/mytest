@@ -12,7 +12,7 @@
     <!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->  
     <dubbo:application name="wtms_con" />  
     <!-- 使用zookeeper注册中心暴露服务地址 -->  
-    <dubbo:registry address="zookeeper://172.16.0.22:2181" />
+    <dubbo:registry address="${zookeeper.address}" />
     <dubbo:protocol port="20880"/>
     <dubbo:reference id="testInterface" interface="com.xue.test3.service.TestInterface" init="true" timeout="5000"/>
 </beans>
