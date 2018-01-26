@@ -10,5 +10,6 @@ public class ZhuCe {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[] {"/spring/*.xml"});
         context.start();
         System.in.read(); // 按任意键退出
+        //test
 	}
 }
