@@ -19,4 +19,7 @@
     
 	<bean class="com.xue.test3.imp.TestInterfaceImpl" id="testInterface" />
 	<dubbo:service interface="com.xue.test3.service.TestInterface" ref="testInterface" />
+	
+	<bean class="com.xue.test3.imp.GoodsInterfaceImpl" id="goodsInterface" />
+	<dubbo:service interface="com.xue.test3.service.GoodsInterface" ref="goodsInterface" />
 </beans>

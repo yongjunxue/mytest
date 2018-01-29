@@ -10,6 +10,8 @@
     <module>action</module>
     <module>interface2</module>
     <module>imp2</module>
+    <module>dao</module>
+    <module>pojo</module>
   </modules>
   
   

@@ -8,7 +8,7 @@
 	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
 
-    <context:component-scan base-package="com.xue.test3.*.dao"></context:component-scan>
+    <context:component-scan base-package="com.xue.test3.dao"></context:component-scan>
 	<!-- 数据库连接池 -->
 	<!-- 加载配置文件 -->
 	<context:property-placeholder location="classpath:resource/*.properties" />
@@ -45,6 +45,6 @@
 	
 	<!-- 配置扫描包，加载mapper代理对象 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.xue.test3.*.mapper"></property>
+		<property name="basePackage" value="com.xue.test3.mapper"></property>
 	</bean>
 </beans>

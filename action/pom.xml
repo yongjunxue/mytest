@@ -17,6 +17,11 @@
 			<artifactId>interface2</artifactId>
 			<version>1.1.1</version>
 		</dependency>
+		<dependency>
+			<groupId>com.xue.test3</groupId>
+			<artifactId>pojo</artifactId>
+			<version>1.1.1</version>
+		</dependency>
 		
 		<dependency>
 			<groupId>org.springframework</groupId>

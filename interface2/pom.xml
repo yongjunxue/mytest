@@ -6,4 +6,13 @@
     <version>1.1.1</version>
   </parent>
   <artifactId>interface2</artifactId>
+  
+  <dependencies>
+    <dependency>
+			<groupId>com.xue.test3</groupId>
+			<artifactId>pojo</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+	</dependencies>
+  
 </project>

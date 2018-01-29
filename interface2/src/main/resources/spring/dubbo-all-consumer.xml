@@ -15,4 +15,5 @@
     <dubbo:registry address="${zookeeper.address}" />
     <dubbo:protocol port="20880"/>
     <dubbo:reference id="testInterface" interface="com.xue.test3.service.TestInterface" init="true" timeout="5000"/>
+    <dubbo:reference id="goodsInterface" interface="com.xue.test3.service.GoodsInterface" init="true" timeout="50000"/>
 </beans>
