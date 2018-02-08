@@ -45,7 +45,18 @@
 	    <url-pattern>/m/*</url-pattern>
 	</filter-mapping>
 	 -->
-	 
+	 <filter>
+		<filter-name>jsonpCallbackFilter</filter-name>
+		<filter-class>com.xue.util.JsonpCallbackFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>jsonpCallbackFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
 	 
 	<!-- springmvc的前端控制器 -->
 	<servlet>
